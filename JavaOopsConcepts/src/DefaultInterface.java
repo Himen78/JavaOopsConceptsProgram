@@ -8,6 +8,11 @@ interface Car
 	{
 		System.out.println("I love Music");
 	}
+	
+	static void powerWindoww()
+	{
+		System.out.println("I lovee sports car");
+	}
 }
 
 
@@ -28,6 +33,7 @@ public class DefaultInterface {
 		c.sportsStering();
 		c.jblMusicSystem();
 
+	Car.powerWindoww();
 	}
 
 }
